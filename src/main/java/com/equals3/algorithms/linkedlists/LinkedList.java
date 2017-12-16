@@ -7,53 +7,78 @@ public class LinkedList {
 	public LinkedList() {
 		this.first=null;
 	}
-	
+
 	public Link getFirst(){
 		return first;
 	}
+
 	public void setFirst(Link l){
 		this.first=l;
 	}
+
 	public boolean isEmpty(){
 		return first==null;
 	}
-	public void insertFirst(){
-		Link newLink =  new Link(10);
+
+	public void insertFirst(int key){
+		Link newLink =  new Link(key);
 		newLink.next=first;
 		first=newLink;
 	}
+
 	public Link deleteFirst(){
 		Link temp = first;
 		first=first.next;
 		return temp;
 	}
+
 	public Link find(int key){
 		Link current =  first;
-		while(current!=null){
+		while(current.iData!=key){
 
-			if(current.iData==key){
-				return current;
+			if(current.next == null){
+				return null;
 			}
-			current=current.next;
+			else {
+				current = current.next; 
+			}
 		}
-		return null;
+		return current;
 	}
-	public void delete(int key){
+
+	public Link delete(int key){
+		Link current = first; 
 		Link previous = first;
-		Link cLink= first;
-	}
+		while(current.iData != key)
+		{
+			if(current.next == null){
+				return null;
+
+			}
+			else
+			{
+				previous = current;
+				current = current.next;
+
+			}
+		}
+		if(current == first) {
+			first = first.next;
+		}
+		else {
+			previous.next = current.next; 
+		}
+		return current;
+	} 
 	public void displayList()
 	{
-	Link current = first; 
-	while(current != null) 
-	{
-	current.displayLink(); 
-	current = current.next; 
+		Link current = first; 
+		while(current != null) 
+		{
+			current.displayLink(); 
+			current = current.next; 
+		}
+		System.out.println("");
 	}
-	System.out.println("");
-	}
-	public ListIterator getIterator() 
-	{
-	return new ListIterator(this); 
-	} 
+
 }
