@@ -1,4 +1,4 @@
-package com.equals3.classicinterviewquestions;
+package com.equals3.classicinterviewquestions.solvemefirst.arrays;
 
 public class ThreeNumbersSumZeroBruteForce {
 
