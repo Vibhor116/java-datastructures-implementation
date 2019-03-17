@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InterpolationSearch",
+            "request": "launch",
+            "mainClass": "com.equals3.algorithms.arrays.search.InterpolationSearch",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinarySearch",
+            "request": "launch",
+            "mainClass": "com.equals3.algorithms.arrays.search.BinarySearch",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinarySearch",
+            "request": "launch",
+            "mainClass": "com.equals3.algorithms.arrays.BinarySearch",
+            "projectName": "java-algorithms-implementation"
+        }
+    ]
+}
