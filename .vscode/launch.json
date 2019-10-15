@@ -2,6 +2,391 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MinimumMeetingRoomRequired",
+            "request": "launch",
+            "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.arrays.searching.MinimumMeetingRoomRequired",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LambdaExpressions",
+            "request": "launch",
+            "mainClass": "com.concurrency.LambdaExpressions",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamExample",
+            "request": "launch",
+            "mainClass": "com.concurrency.StreamExample",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Stream",
+            "request": "launch",
+            "mainClass": "com.concurrency.Stream",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringPermutations",
+            "request": "launch",
+            "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.arrays.sorting.StringPermutations",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BiasedChandan",
+            "request": "launch",
+            "mainClass": "com.hackerrank.practice.algorithims.implementation.BiasedChandan",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Example",
+            "request": "launch",
+            "mainClass": "com.ds.Example",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sample",
+            "request": "launch",
+            "mainClass": "hackerearth.string.Sample",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - VowelPhobia",
+            "request": "launch",
+            "mainClass": "hackerearth.string.VowelPhobia",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HamiltonianAndLagrangian",
+            "request": "launch",
+            "mainClass": "hackerearth.OneDArray.HamiltonianAndLagrangian",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ZigZagArrangement",
+            "request": "launch",
+            "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.arrays.sorting.ZigZagArrangement",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinaryQuaries",
+            "request": "launch",
+            "mainClass": "hackerearth.OneDArray.BinaryQuaries",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - You",
+            "request": "launch",
+            "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.arrays.sorting.You",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UsingBarriers",
+            "request": "launch",
+            "mainClass": "com.ctci.UsingBarriers",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TaskLimitSemaphore",
+            "request": "launch",
+            "mainClass": "com.ctci.TaskLimitSemaphore",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindMissingNumber",
+            "request": "launch",
+            "mainClass": "com.ctci.FindMissingNumber",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KMP",
+            "request": "launch",
+            "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.KMP",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Power",
+            "request": "launch",
+            "mainClass": "com.programcreek.Power",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinkedListApp",
+            "request": "launch",
+            "mainClass": "com.interview.linkedlists.LinkedListApp",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "com.ctci.RemoveDuplicates",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DuplicateBrackets",
+            "request": "launch",
+            "mainClass": "com.equals3.algorithms.stacks.DuplicateBrackets",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseNumberUsingStack",
+            "request": "launch",
+            "mainClass": "com.equals3.algorithms.stacks.ReverseNumberUsingStack",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SortStackUsingTempStack",
+            "request": "launch",
+            "mainClass": "com.equals3.algorithms.stacks.SortStackUsingTempStack",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TicTacToe",
+            "request": "launch",
+            "mainClass": "com.programcreek.TicTacToe",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - S",
+            "request": "launch",
+            "mainClass": "com.ctci.S",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SortStackUsingRecursion",
+            "request": "launch",
+            "mainClass": "com.equals3.algorithms.stacks.SortStackUsingRecursion",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubArray",
+            "request": "launch",
+            "mainClass": "org.g4g.problems.arrays.SubArray",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThreeSum",
+            "request": "launch",
+            "mainClass": "com.leetcode.ThreeSum",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TwoSum",
+            "request": "launch",
+            "mainClass": "com.leetcode.TwoSum",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SlidingWindowMaximum",
+            "request": "launch",
+            "mainClass": "org.g4g.problems.arrays.SlidingWindowMaximum",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Tree",
+            "request": "launch",
+            "mainClass": "com.ctci.Tree",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FilteringApples",
+            "request": "launch",
+            "mainClass": "com.ctci.FilteringApples",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DetectLoopLinkedList",
+            "request": "launch",
+            "mainClass": "com.equals3.algorithms.linkedlists.DetectLoopLinkedList",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CheckAnagram",
+            "request": "launch",
+            "mainClass": "org.g4g.problems.warmups.anagrams.CheckAnagram",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Anagram",
+            "request": "launch",
+            "mainClass": "com.equals3.algorithms.recursion.Anagram",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RunLengthEncoding",
+            "request": "launch",
+            "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.arrays.RunLengthEncoding",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sample",
+            "request": "launch",
+            "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.arrays.Sample",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MoveAllZerosToEndOfArray",
+            "request": "launch",
+            "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.arrays.MoveAllZerosToEndOfArray",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KthElementInArray",
+            "request": "launch",
+            "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.arrays.KthElementInArray",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EvenOddProduct",
+            "request": "launch",
+            "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.arrays.EvenOddProduct",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ZigZagArrangement",
+            "request": "launch",
+            "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.arrays.ZigZagArrangement",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeTwoSortedArray",
+            "request": "launch",
+            "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.arrays.MergeTwoSortedArray",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CheckUniqueChars",
+            "request": "launch",
+            "mainClass": "com.ctci.CheckUniqueChars",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MatrixLayerRotation",
+            "request": "launch",
+            "mainClass": "com.hackerrank.practice.algorithims.implementation.MatrixLayerRotation",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SegregrateEvenAndOdd",
+            "request": "launch",
+            "mainClass": "org.g4g.problems.warmups.SegregrateEvenAndOdd",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SegregateZeroAndOnes",
+            "request": "launch",
+            "mainClass": "org.g4g.problems.warmups.SegregateZeroAndOnes",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Segregate0And1",
+            "request": "launch",
+            "mainClass": "org.g4g.problems.warmups.Segregate0And1",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumElement",
+            "request": "launch",
+            "mainClass": "org.g4g.problems.warmups.MaximumElement",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Spiral",
+            "request": "launch",
+            "mainClass": "org.g4g.problems.matrix.Spiral",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpiralPrinting",
+            "request": "launch",
+            "mainClass": "org.g4g.problems.matrix.SpiralPrinting",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MultiplyNumber",
+            "request": "launch",
+            "mainClass": "org.g4g.problems.misc.MultiplyNumber",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RotateArray",
+            "request": "launch",
+            "mainClass": "com.hackerrank.challenges.arrays.RotateArray",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SplitArrayIntoEqualSubArrays",
+            "request": "launch",
+            "mainClass": "org.g4g.problems.arrays.SplitArrayIntoEqualSubArrays",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseArrayInGroupK",
+            "request": "launch",
+            "mainClass": "org.g4g.problems.arrays.ReverseArrayInGroupK",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recusion",
+            "request": "launch",
+            "mainClass": "com.equals3.algorithms.arrays.search.Recusion",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InterpolationSearch",
             "request": "launch",
             "mainClass": "com.equals3.algorithms.arrays.search.InterpolationSearch",

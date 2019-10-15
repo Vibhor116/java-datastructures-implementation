@@ -1,0 +1,10 @@
+<![CDATA[<FiscalDocInventoryAckNackResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://http://www.dell.com/services/inventory/fiscaldocumentacknackresp/1.0">
+  <Source>GLOVIA</Source>
+  <SourceReferenceId>{$processID}</SourceReferenceId>
+  <Status>Success</Status>
+  <Errors>
+    <Code>{$body/*:OutputParameters/*:PO_ERR_CODE/text()}</Code>
+    <Description>{$body/*:OutputParameters/*:PO_ERR_MSG/text()}</Description>
+    <Details></Details>
+  </Errors>
+</FiscalDocInventoryAckNackResponse>]]>

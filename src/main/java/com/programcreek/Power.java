@@ -6,8 +6,8 @@ package com.programcreek;
 public class Power {
 
     public static void main(String[] args) {
-        System.out.println(pow(5, 5));
-        System.out.println(Math.pow(20, 500));
+        System.out.println(pow(5, 3));
+        System.out.println(Math.pow(20, 5));
     }
 
     public static double pow(double a, double b) {

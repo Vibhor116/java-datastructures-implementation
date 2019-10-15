@@ -1,0 +1,26 @@
+TreeSet<Integer> set = new TreeSet<Integer>();
+       Reader scan = new Reader();
+       int n = scan.nextInt();
+       int query = scan.nextInt();
+       StringBuilder sb = new StringBuilder("");
+       while(query-- !=0)
+       {
+           if(scan.nextInt()==1)
+           {
+               set.add(scan.nextInt());
+           }
+           else
+           {
+               int index = scan.nextInt();
+               Integer val = set.ceiling(index);
+               if(val==null)
+               {
+                   sb.append("-1\n");
+               }
+               else
+               {
+                   sb.append(val+"\n");
+               }
+           }
+       }
+       System.out.println(sb);

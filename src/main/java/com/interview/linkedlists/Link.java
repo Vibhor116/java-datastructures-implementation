@@ -9,6 +9,6 @@ public class Link {
        this.iData = data;
     }
     public void displayLink(){
-        System.out.print("{"+this.iData+"}");
+        System.out.print(" { "+this.iData+" } ");
     }
 }

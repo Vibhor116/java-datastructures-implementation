@@ -1,5 +1,6 @@
 package org.g4g.problems.arrays;
 
+import java.io.IOException;
 import java.util.Arrays;
 
 public class AlternateSorting {
@@ -39,5 +40,29 @@ public class AlternateSorting {
 				temp[i]=arr[right--];
 		}
 		return temp;
+	}
+
+	public static void main(String[] args) throws IOException {
+	
+	    String s ="sample string";
+	
+	    int val[] = new int[256];
+	    for(int i=0;i<s.length();i++){
+	        val[s.charAt(i)]++;
+	    }
+	    System.out.println(Arrays.toString(val));
+	
+	
+	
+	
+	
+	}
+
+	public static int recursive(int fact,int result) {
+	
+	    if(fact==1){
+	        return  result;
+	    }
+	return recursive(fact*fact-1, result);
 	}
 }

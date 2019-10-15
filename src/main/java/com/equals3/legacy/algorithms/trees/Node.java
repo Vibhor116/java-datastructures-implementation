@@ -8,8 +8,9 @@ public class Node {
 	public Node(int data) {
 		this.iData=data;
 	}
+	
 	public Node() {
-
+		
 	}
 	public void displayNode(){
 		System.out.println("{ "+iData+" }");

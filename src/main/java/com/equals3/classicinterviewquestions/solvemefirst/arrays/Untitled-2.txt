@@ -1,0 +1,59 @@
+package com.equals3.classicinterviewquestions.solvemefirst.arrays;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class Sample {
+
+  
+    public static void main(String[] args) {
+
+    
+int arr[] = {2,5,4,6,8};
+int x=3;
+int gloablMax=-1;
+for(int i =0;i<arr.length-x+1;i++){
+    int min =  arr[i];
+    for(int j=i;j<i+x;j++){
+        
+        if(min>arr[j]){
+            min= arr[j];
+        }
+    }
+    if(gloablMax==-1){
+        gloablMax=min;
+    }
+    else{
+        if(gloablMax<min){
+            gloablMax=min;
+        }
+    }
+}
+System.out.println(gloablMax);
+      }
+
+
+    private static void permeute(String s, int left, int right) {
+        if(left==right){
+            System.out.println(s);
+        }
+       else{
+           for(int k=left;k<=right;k++){
+               s=swap(s,left,k);
+              // permeute(s, left+1, right);
+               s=swap(s,left,k);
+           }
+       }
+
+    }
+
+    private static String swap(String s, int i, int j) {
+       char arr[] = s.toCharArray();
+        char temp = arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
+        return String.valueOf(arr);
+    }
+}

@@ -1,0 +1,9 @@
+// Sprint scope for this Sprint
+//As discussed with kalyan
+//1. Taking SFA deal as refernce and complete follwoing things
+- Taking input from request (e.g in JSON format ) and take the action(s) assigned in the pipe-line
+which can contain wither assign ,replace and slert action
+- take query text and write eq. java code for the i/P given for all te acrtions
+-- Resukt= A method or endpoint conatians java eq. of request provied
+
+
