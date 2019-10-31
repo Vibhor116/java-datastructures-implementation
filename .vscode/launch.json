@@ -2,6 +2,146 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LiftQuaries",
+            "request": "launch",
+            "mainClass": "hackerearth.basicsofinputoutput.LiftQuaries",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RoyAndProfilePicture",
+            "request": "launch",
+            "mainClass": "hackerearth.basicsofinputoutput.RoyAndProfilePicture",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cipher",
+            "request": "launch",
+            "mainClass": "hackerearth.basicsofinputoutput.Cipher",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Divisible",
+            "request": "launch",
+            "mainClass": "hackerearth.basicsofinputoutput.Divisible",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Divisibility",
+            "request": "launch",
+            "mainClass": "hackerearth.basicsofinputoutput.Divisibility",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SignalRange",
+            "request": "launch",
+            "mainClass": "hackerearth.stacks.SignalRange",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BalancedBrackets",
+            "request": "launch",
+            "mainClass": "hackerearth.stacks.BalancedBrackets",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PinkFloydAndHappiness",
+            "request": "launch",
+            "mainClass": "hackerearth.stacks.PinkFloydAndHappiness",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SuperReducedStrings",
+            "request": "launch",
+            "mainClass": "hackerearth.stacks.SuperReducedStrings",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FightForLaddus",
+            "request": "launch",
+            "mainClass": "hackerearth.stacks.FightForLaddus",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestClass",
+            "request": "launch",
+            "mainClass": "hackerearth.stacks.TestClass",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumAddToMakeParenthesesValid",
+            "request": "launch",
+            "mainClass": "hackerearth.stacks.MinimumAddToMakeParenthesesValid",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FrustatedCoders",
+            "request": "launch",
+            "mainClass": "hackerearth.stacks.FrustatedCoders",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ForEachDemo",
+            "request": "launch",
+            "mainClass": "com.java8.Java_Util_Function.ForEachDemo",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GroupingDemo",
+            "request": "launch",
+            "mainClass": "com.java8.comparatorandcollectors.GroupingDemo",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PartitionDemo",
+            "request": "launch",
+            "mainClass": "com.java8.comparatorandcollectors.PartitionDemo",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ImmutableCollections",
+            "request": "launch",
+            "mainClass": "com.java8.IImmutableCollections.ImmutableCollections",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ImmutableCollections",
+            "request": "launch",
+            "mainClass": "com.java8.ImmutableCollections.ImmutableCollections",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SortingDemo",
+            "request": "launch",
+            "mainClass": "com.java8.comparatorandcollectors.SortingDemo",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MoveAllZerosToEndOfArray",
+            "request": "launch",
+            "mainClass": "com.interview.arrays.days_1_20.MoveAllZerosToEndOfArray",
+            "projectName": "java-algorithms-implementation"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MinimumMeetingRoomRequired",
             "request": "launch",
             "mainClass": "com.equals3.classicinterviewquestions.solvemefirst.arrays.searching.MinimumMeetingRoomRequired",

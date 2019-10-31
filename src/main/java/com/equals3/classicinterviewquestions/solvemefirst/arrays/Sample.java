@@ -1,28 +1,18 @@
 package com.equals3.classicinterviewquestions.solvemefirst.arrays;
 
-//rignoyamla@enayu.com
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.sql.Array;
-import java.util.Arrays;
 
 public class Sample {
 
     public static void main(String[] args) throws IOException {
 
-      int arr[]={1,2,3,4};
-
-      for(int i=0;i<arr.length;i++){
-
-        for(int j=i;j<arr.length;j++){
-            System.out.print(arr[j]+" ");
-        }
-        System.out.println();
-      }
-
       
       
+      char ch ='Z';
+      int offset =  ch+4;
+      System.out.println(offset);
+      System.out.println(offset-65);
+      System.out.println((offset-65)%26+offset);
        
 
   
