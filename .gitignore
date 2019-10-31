@@ -3,8 +3,8 @@
 /build/
 /dist/
 /out/
-.idea
-.settings
-.vscode
-.classpath
-.metals
+*.idea
+*.settings
+*.vscode
+*.classpath
+*.metals
