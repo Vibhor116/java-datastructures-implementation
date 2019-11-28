@@ -1,24 +1,42 @@
 package com.equals3.classicinterviewquestions.solvemefirst.arrays;
 
 import java.io.IOException;
+import java.util.Arrays;
 
 public class Sample {
 
     public static void main(String[] args) throws IOException {
-
+      //
+     int arr1 []={1,3,5,7,9,11};
+     int arr2 [] = {2,4,6,8,10,12,14,16,18,20};
       
-      
-      char ch ='Z';
-      int offset =  ch+4;
-      System.out.println(offset);
-      System.out.println(offset-65);
-      System.out.println((offset-65)%26+offset);
-       
+     int arr3[] = new int[arr1.length+arr2.length];
+     int i=0;
+     int j=0;
+     int k=0;
+     while(i<arr1.length && j<arr2.length){
 
-  
+      if(arr1[i]<arr2[j]){
+        arr3[k++]= arr1[i];
+        i++;
+      }
+      else  if(arr1[i]>arr2[j]){
+        arr3[k++]= arr2[j];
+        j++;
+      }
+      // 
+     
+     }
+     while(i<arr1.length){
+       arr3[k++] = arr1[i];
+       i++;
+     }
+     while(j<arr2.length){
+      arr3[k++] = arr2[j];
+      j++;
     }
-
-
+    System.out.println(Arrays.toString(arr3));
+    }
 
     private static int recursive(int fact) {
 

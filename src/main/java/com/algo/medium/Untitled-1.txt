@@ -1,0 +1,7 @@
+Integer i1 = new Integer(10);
+Integer i2 = new Integer(10);
+sop(i1==i2);
+sop(i1.equals(i2));
+sop(i1.equals("10"));
+sop("10".equals(i2));
+sop(10.equals(i2));
